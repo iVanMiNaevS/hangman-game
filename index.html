@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="start-screen">
+      <h1 class="start-screen__title">Hangman</h1>
+      <button class="strart-screenPlay">Play</button>
+    </div>
+    <div class="main-game">
+      <!-- верхняя строка с ответом -->
+      <div class="up-row"></div>
+      <!-- часть с рисунком -->
+      <div class="hangman">
+        <img src="img/1stick.png" alt="#" class="img1 img-item" />
+        <img src="img/2stick.png" alt="#" class="img2 img-item" />
+        <img src="img/3stick.png" alt="#" class="img3 img-item" />
+        <img src="img/4stick.png" alt="#" class="img4 img-item" />
+        <img src="img/5stick.png" alt="#" class="img5 img-item" />
+        <img src="img/6stick.png" alt="#" class="img6 img-item" />
+        <img src="img/7stick.png" alt="#" class="img7 img-item" />
+        <img src="img/8stick.png" alt="#" class="img8 img-item" />
+        <img src="img/9stick.png" alt="#" class="img9 img-item" />
+        <img src="img/10stick.png" alt="#" class="img10 img-item" />
+      </div>
+      <button class="hint-bt">?</button>
+      <div class="pop-up">
+        <p class="hint"></p>
+        <div class="close">X</div>
+      </div>
+      <div class="key-board"></div>
+    </div>
+    <div class="game-over-screen"></div>
+    <div class="win-screen"></div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
