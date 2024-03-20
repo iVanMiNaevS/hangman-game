@@ -256,7 +256,7 @@
   position: relative;
   top: calc(var(--index) * -30);
   left: calc(var(--index) * 35);
-  width: calc(var(--index) * 15);
+  width: calc(var(--index) * 13);
   height: calc(var(--index) * 15);
   background-color: white;
   border-radius: 10px;
@@ -266,6 +266,7 @@
 }
 .hint {
   font-size: calc(var(--index) * 2.3);
+  word-wrap: break-word;
 }
 .close {
   position: absolute;
